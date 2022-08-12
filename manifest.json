@@ -1,0 +1,20 @@
+{
+  "name": "Total Figma Design Tokens",
+  "id": "1139320019679193580",
+  "api": "1.0.0",
+  "main": "dist/plugin.js",
+  "ui": "dist/ui.html",
+  "editorType": [
+    "figma",
+    "figjam"
+  ],
+  "menu": [
+    {
+      "name": "Export to URL", "command": "exportToUrl"
+    },
+    { "separator":  true },
+    {
+      "name": "Settings", "command": "generalSettings"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "target": "es2016",
+    "lib": [
+      "es2020",
+      "dom",
+      "dom.iterable"
+    ],
+    "skipLibCheck": true,
+    "typeRoots": [
+      "./node_modules/@types",
+      "./node_modules/@figma",
+      "./types"
+    ],
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+      "@components/*": [
+        "src/components/*"
+      ],
+      "@configs/*": [
+        "src/configs/*"
+      ],
+      "@src/*": [
+        "src/*"
+      ],
+      "@utils/*": [
+        "src/utils/*"
+      ],
+      "@types/*": [
+        "types/*"
+      ]
+    },
+    "allowSyntheticDefaultImports": true
+  },
+    "allowSyntheticDefaultImports": true,
+    "include":["src/**/*"],
+    "exclude": ["src/**/_*"],
+    "files": ["src/index.ts"]
+}
